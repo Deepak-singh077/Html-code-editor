@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import Avatar from 'react-avatar';
-import { api_base_url } from '../helper';
 
 export const Navbar = () => {
   const [data, setData] = useState(null);
