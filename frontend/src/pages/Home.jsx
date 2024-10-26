@@ -3,7 +3,6 @@ import { Navbar } from '../components/Navbar';
 import ListCard from '../components/ListCard';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { api_base_url } from '../helper';
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
