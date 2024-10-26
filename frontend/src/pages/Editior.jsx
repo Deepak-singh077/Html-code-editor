@@ -3,7 +3,6 @@ import Editor from '@monaco-editor/react';
 import EditorNav from '../components/EditiorNav';
 import { MdLightMode } from 'react-icons/md';
 import { FaExpandAlt } from 'react-icons/fa';
-import { api_base_url } from '../helper';
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 const CodeEditor = () => {
